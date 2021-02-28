@@ -24,6 +24,15 @@
 .icon-whatsapp:hover, .icon-whatsapp:focus{
   color: #00800082 !important; 
 }
+.logo-menu{
+  height: 60px; 
+  border-radius: 15px;
+}
+
+.text-black{
+  color: black !important;
+  font-weight: bolder !important;
+}
 
 @media (max-width: 450px) {
 
@@ -32,6 +41,15 @@
   }
         
 } 
+
+@media (max-width: 768px){
+
+  .logo-menu{
+    max-height: none !important;
+  }
+
+}
+
 
 
 
