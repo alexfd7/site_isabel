@@ -44,6 +44,9 @@
 
 @media (max-width: 768px){
 
+    .lity-iframe-container{
+       height: 550px !important;
+    }    
   .logo-menu{
     max-height: none !important;
   }
@@ -72,3 +75,18 @@ h6,a {
   font-family: Futura !important; 
 }
 
+
+
+.site-section-heading.text-center:after {
+    content: "";
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: "";
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #3f2d47;
+}
