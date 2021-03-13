@@ -2,6 +2,47 @@
   cursor: pointer;
 }
 
+
+
+.header-scrolled a   {
+  color: white !important;
+}
+
+
+.brand-wrap { 
+  background: url(../img/banner-bg5.jpeg) center;
+  background-size: cover ;
+  
+}
+
+.brand-wrap  a {
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+/*
+#header.header-scrolled { 
+  background: url(../img/banner-bg6.png) center;
+  background-size: cover 
+}
+*/
+
+
+#header.header-scrolled { 
+   background: #3f2d47 !important; 
+}
+
+
+.footer-area .footer-social a i{
+ 
+}
+
+
+.brands-area{
+  line-height: 1.0em !important;
+}
+
+
 .float-wpp{
   position:fixed;
   width:60px;
@@ -29,7 +70,7 @@
 }
 
 .text-black{
-  color: black !important;
+  /*color: black !important;*/
   font-weight: bolder !important;
 }
 

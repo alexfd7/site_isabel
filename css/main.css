@@ -2596,7 +2596,7 @@ h6 {
 
 .nav-menu a.active,
 .nav-menu a:hover {
-	color: #3f2d47!important
+	color: #3f2d47;
 }
 
 .nav-menu.white a {
@@ -2908,7 +2908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
-	opacity: .5;
+	/*opacity: .5;*/
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
 	-o-transition: all .3s ease 0s;
