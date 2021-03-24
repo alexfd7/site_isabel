@@ -2665,7 +2665,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-	color: #3f2d47;
+	/*color: #3f2d47;*/
 	font-weight: 900
 }
 
@@ -2768,7 +2768,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-banner-area {
-	background: url(../img/banner-bg4.png) center;
+	background: url(../img/banner-bg5.png) center;
 	background-size: cover
 }
 

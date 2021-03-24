@@ -387,5 +387,12 @@ $(document).ready(function() {
         }
     }
 
+
+    $("#mobile-nav a").on("click", function() {        
+        $('body').toggleClass('mobile-nav-active');
+        $('#mobile-nav-toggle i').toggleClass('lnr-cross lnr-menu');
+        $('#mobile-body-overly').toggle();
+    });
+
     $.scrollIt();
 });

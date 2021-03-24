@@ -65,9 +65,6 @@
 .icon-whatsapp:hover, .icon-whatsapp:focus{
   color: #00800082 !important; 
 }
-.logo-menu{
-  height: 60px;   
-}
 
 .text-black{
   /*color: black !important;*/
@@ -84,11 +81,14 @@
 
 @media (max-width: 768px){
 
-    .lity-iframe-container{
-       height: 550px !important;
-    }    
+  .lity-iframe-container{
+     height: 550px !important;
+  }    
   .logo-menu{
     max-height: none !important;
+  }
+  .testimonials_area{
+    padding-bottom: 0px !important;
   }
 
 }
@@ -139,4 +139,8 @@ h6,a {
 
 .single-work .middle h4 {
     /*color: #3f2d47 !important;*/
+  }
+
+  #mobile-nav-toggle{
+    margin-top: 7% !important;
   }
