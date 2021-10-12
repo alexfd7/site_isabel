@@ -71,6 +71,15 @@
   font-weight: bolder !important;
 }
 
+
+#nav-menu-container {    
+    margin-left: 40px !important;
+}
+
+.nav-menu a:hover {
+    background-color:#3f2d4782 ;
+}
+
 @media (max-width: 450px) {
 
   .banner-content {
