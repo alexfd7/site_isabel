@@ -71,6 +71,11 @@
   font-weight: bolder !important;
 }
 
+.about{
+    border-radius: 10px;
+    box-shadow: -24px -24px 160px -24px rgb(0 0 0 / 44%);
+    padding: 20px;  
+}
 
 #nav-menu-container {    
     margin-left: 40px !important;

@@ -395,4 +395,56 @@ $(document).ready(function() {
     });
 
     $.scrollIt();
+
+
+    $('#send_btn').on('click', function (e) {        
+        if (!e.isDefaultPrevented()) {
+
+            var nome_input = $("#nome").val();                                  
+            var telefone_input = $("#telefone").val();
+            var mensagem_input = $("#mensagem").val();          
+            var email_input = $("#email").val();          
+            var url = "contact.php";
+
+
+            const formData = new FormData();
+
+            formData.append("nome",nome_input);
+            formData.append("telefone",telefone_input);
+            formData.append("email",email_input);
+            formData.append("mensagem",mensagem_input);
+            
+
+            if(!nome_input || !telefone_input || !mensagem_input || !email_input ){
+
+                alert('Preencha os campos obrigatórios!');
+
+            }else{
+
+              $.ajax({
+                  type: "POST",
+                  url: url,
+                  data: formData,
+                  processData: false,
+                  contentType: false,                  
+                  success: function (data)
+                  {                      
+                      var messageAlert = 'alert-' + data.type;
+                      var messageText = data.message;
+
+                      var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+                      if (messageAlert && messageText) {
+                          $('#form_contato').find('.messages').html(alertBox);
+                          $('#form_contato')[0].reset();
+                      }
+                      
+                  }
+              });             
+
+            }            
+
+
+            return false;
+        }
+    });         
 });
