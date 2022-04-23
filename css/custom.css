@@ -78,7 +78,7 @@
 }
 
 #nav-menu-container {    
-    margin-left: 40px !important;
+    margin-left: 20px !important;
 }
 
 .nav-menu a:hover {
@@ -104,6 +104,10 @@
   .testimonials_area{
     padding-bottom: 0px !important;
   }
+
+  .owl-stage{
+    font-size: 11px !important;
+  }  
 
 }
 
@@ -158,3 +162,5 @@ h6,a {
   #mobile-nav-toggle{
     margin-top: 7% !important;
   }
+
+
