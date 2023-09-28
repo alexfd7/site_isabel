@@ -18,11 +18,12 @@ $(document).ready(function() {
         }
     });
 
+/*
     $(window).on('load', function() {
         $(".preloader-area").delay(200).fadeOut(500);
     })
 
-
+*/
     $('.nav-menu').superfish({
         animation: {
             opacity: 'show'

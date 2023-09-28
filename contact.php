@@ -2,7 +2,7 @@
 
 // configure
 $from = 'email@teste.com.br';
-$sendTo = 'contato@isabelcostaoficial.com'; // Add Your Email
+$sendTo = 'ysabelacostacoach@gmail.com'; // Add Your Email
 $subject = 'Nova mensagem do formulário de contato';
 $fields = array('nome' => 'Nome','telefone' => 'Telefone', 'email' => 'Email', 'mensagem' => 'Mensagem'); // array variable name => Text to appear in the email
 $okMessage = 'Formulário enviado com sucesso. Obrigado, em breve entraremos em contado com você!';
